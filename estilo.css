@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+}
+
+.carta{
+    height: 450px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+
+}
+
+.img_productos{
+    height: 260px;
+    width: 260px;
+    object-fit: contain;
+}
+
+.cartaTitulo{
+    font-size: 25px;
+    font-family:'Francois One', sans-serif;
+    margin: 10px 10px;
+}
+
+.cartaMarca{
+    font-size: 15px;
+    font-family:'Francois One', sans-serif;
+}
+
+.cartaPrecio{
+    font-size: 20px;
+    font-family:'Francois One', sans-serif;
+}
+
+.boton_carta{
+    height: 50px;
+    width: 50%;
+    margin: 10px 0px;
+    background-color: blue;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.boton_carta:hover{
+    cursor: pointer;
+    background-color: rgb(3, 3, 133);
+}
+
+.inputCantidad{
+    width: 100px;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body h1{
+    position: relative;
+    top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+}
