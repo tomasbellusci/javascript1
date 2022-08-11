@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1 ,
+        "nombre": "Testosterona",
+        "marca": "Roid Plus",
+        "precio": 7500,
+        "stock": 120,
+        "imagen": "../img/testo_propionato.jpg"
+    },
+    {
+        "id": 2 ,
+        "nombre": "Estanozolol",
+        "marca": "Roid Plus",
+        "precio": 5000,
+        "stock": 150,
+        "imagen": "../img/stano_jpeg.jpg"
+    },
+    {
+        "id": 3 ,
+        "nombre": "Trembolona",
+        "marca": "Roid Plus",
+        "precio": 8800,
+        "stock": 110,
+        "imagen": "../img/trembo_jpeg.jpg"
+    },
+    {
+        "id": 4 ,
+        "nombre": "Boldenona",
+        "marca": "Roid Plus",
+        "precio": 7000,
+        "stock": 130,
+        "imagen": "../img/bolde_roid.jpg"
+    }
+]
