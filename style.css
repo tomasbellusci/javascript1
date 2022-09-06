@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 20px;
+}
+.body {
+    background-color: #fafafa;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+.conversor-icono {
+    
+    width: 250px;
+    border-radius: 50px ;
+}
+.h1 {
+    font-family:  'Cormorant Garamond', serif;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.p {
+    text-align: center;
+    font-size:  25px ;
+    font-family: 'Exo 2', sans-serif;
+}
+.btn{
+    width: 120px;
+    cursor: pointer;
+    height: 40px;
+    text-transform:capitalize;
+    color: rgb(1, 3, 1);
+    background-color:  rgb(207, 207, 193);
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+}
+.p2 {
+    position: relative;
+    bottom: 13px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color:  black;
+}
+.moneda select {
+    padding: 10px 20px  10px 10px;
+    font-family: 'Crimson Text', serif;
+}
+.moneda input{
+    font-size: larger;
+    border-color: rgb(154, 179, 154);
+    text-align: center;
+}
